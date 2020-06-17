@@ -320,7 +320,7 @@ public class LoginActivity extends AppCompatActivity {
                     emailId.requestFocus();
                 }
                 else if(pwd.isEmpty()){
-                    password.setError("Please Check your password");
+                    password.setError("Please Check your p다웅패ㅑㅊㄷassword");
                     password.requestFocus();
                 }else{
                     mAuth.signInWithEmailAndPassword(email, pwd).addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
@@ -329,7 +329,7 @@ public class LoginActivity extends AppCompatActivity {
                             if(task.isSuccessful()){
                                 Toast.makeText(LoginActivity.this, "아이디를 저장합니다", Toast.LENGTH_SHORT).show();
                                 Intent i = new Intent(LoginActivity.this, MainActivity.class);
-                                Log.i("test", "custom 로그인 간다~");
+                                Log.i("test", "custom 로그인 간다~~ " + task.getResult().toString() );
                                 startActivity(i);
                                 Toast.makeText(LoginActivity.this, "로그인 중입니다", Toast.LENGTH_SHORT).show();
                                 finish();

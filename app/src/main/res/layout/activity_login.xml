@@ -112,7 +112,7 @@
             android:id="@+id/iv_ic_github"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_kakaotalk"
+            app:srcCompat="@drawable/ic_github"
             android:layout_marginHorizontal="40dp"
             android:layout_weight="1"/>
     </LinearLayout>

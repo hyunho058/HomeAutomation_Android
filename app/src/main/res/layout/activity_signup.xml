@@ -110,12 +110,12 @@
             android:layout_weight="1"/>
 
         <ImageView
-            android:id="@+id/iv_ic_kakao"
+            android:id="@+id/iv_ic_github"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_kakaotalk"
             android:layout_marginHorizontal="40dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_github" />
     </LinearLayout>
 
 
